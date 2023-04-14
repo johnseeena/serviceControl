@@ -1,0 +1,65 @@
+﻿  SvcConstants.cpp
+  SvcControl.cpp
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(7,21): error C2653: ServiceEnumerator: не является именем класса или пространства имен
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(7,40): error C3861: EnumerateServices: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): error C2672: "begin": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1589,27): message : может быть "_Ty *std::begin(_Ty (&)[_Size]) noexcept"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : '_Ty *std::begin(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1571,30): message : или       "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Сбой при специализации функции-шаблона "unknown-type std::begin(const _Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Со следующими аргументами шаблона:
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1565,30): message : или       "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Сбой при специализации функции-шаблона "unknown-type std::begin(_Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Со следующими аргументами шаблона:
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\initializer_list(55,35): message : или       "const _Elem *std::begin(std::initializer_list<_Elem>) noexcept"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : 'const _Elem *std::begin(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): error C2672: "end": не найдена соответствующая перегруженная функция
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1594,27): message : может быть "_Ty *std::end(_Ty (&)[_Size]) noexcept"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : '_Ty *std::end(_Ty (&)[_Size]) noexcept': не удалось вывести аргумент шаблон для '_Ty (&)[_Size]' из 'unknown-type'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1583,30): message : или       "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Сбой при специализации функции-шаблона "unknown-type std::end(const _Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Со следующими аргументами шаблона:
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xutility(1577,30): message : или       "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Сбой при специализации функции-шаблона "unknown-type std::end(_Container &) noexcept(<expr>)"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : Со следующими аргументами шаблона:
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : "_Container=unknown-type"
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\initializer_list(60,35): message : или       "const _Elem *std::end(std::initializer_list<_Elem>) noexcept"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,26): message : 'const _Elem *std::end(std::initializer_list<_Elem>) noexcept': не удалось вывести аргумент шаблон для 'std::initializer_list<_Elem>' из 'unknown-type'
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(9,5): error C3536: <begin>$L0: не может использоваться до инициализации
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(9,5): error C3536: <end>$L0: не может использоваться до инициализации
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(8,34): error C2100: недопустимое косвенное обращение
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(12,31): error C3861: ServiceStatusToString: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(19,20): error C2065: ServiceController: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(23,37): error C3861: ServiceStatusToString: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(26,28): error C2760: синтаксическая ошибка: непредвиденный элемент "ServiceConfig". Ожидается "спецификатор типа"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(26,42): error C2059: синтаксическая ошибка: const
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(26,54): error C2059: синтаксическая ошибка: )
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(27,5): error C2143: синтаксическая ошибка: отсутствие ";" перед "{"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(29,50): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(30,50): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(31,50): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(32,70): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(32,50): error C3861: ServiceTypeToString: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(33,75): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(33,50): error C3861: ServiceStartTypeToString: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(34,78): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(34,50): error C3861: ServiceErrorControlToString: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(35,50): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(36,50): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(37,50): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(39,30): error C2065: config: необъявленный идентификатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(39,9): error C2530: d: ссылки должны быть инициализированы
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(39,9): error C3531: d: символ, тип которого содержит спецификатор 'auto' должен иметь инициализатор
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(39,28): error C2143: синтаксическая ошибка: отсутствие ";" перед ":"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(39,54): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(49,21): error C3536: print_config: не может использоваться до инициализации
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(49,28): error C3536: config: не может использоваться до инициализации
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(49,9): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(53,31): error C3861: _T: идентификатор не найден
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(59,9): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(61,48): error C3536: oldDescription: не может использоваться до инициализации
+C:\Users\krusher\source\repos\SvcControl\SvcControl.cpp(65,9): error C2064: результатом вычисления фрагмента не является функция, принимающая 1 аргументов
+  Создание кода...
